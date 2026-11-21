@@ -1,0 +1,16 @@
+.{
+    .name = .faac,
+    .version = "2.2.0",
+    .dependencies = .{
+        .upstream = .{
+            .url = "git+https://github.com/FreewareAdvancedAudio/faac.git#6acbe23ac9318d8f731ef38e0a56365f70af4797",
+            .hash = "N-V-__8AAFniCQComEVsZhltKYDELnU8SH1FXKS4mN46z6It",
+        },
+    },
+    .minimum_zig_version = "0.17.1",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+    .fingerprint = 0xde41bcd0f574c4b3,
+}
